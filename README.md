@@ -66,9 +66,13 @@ This repository contains a collection of assignments from the **Advanced Program
 ---
 
 ### Assignment 5
-- **Focus:** Midterm Retake and Improvement  
+- **Focus:** Midterm Exam - Queue Data Structure and Student Performance Simulation  
 - **Description:**  
-  This assignment allows students to retake the midterm exam with slight modifications. Students who wish to improve their grades must complete the exam and submit their work by the specified deadline.
+  This assignment focuses on implementing a queue data structure to manage student performance, with tasks including:
+  - Implementing an **APQueue** class to simulate a queue using a First-In-First-Out (FIFO) structure.
+  - Creating **Student** classes that simulate the final grade distribution of students using either normal or exponential probability distributions.
+  - Implementing **NormalStudent** and **ExponentialStudent** subclasses that calculate grades based on predefined parameters (mean, standard deviation for normal, and lambda for exponential).
+  - Using numerical integration to calculate probabilities for different grade ranges.
 
 
 ---
