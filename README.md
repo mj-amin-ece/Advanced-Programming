@@ -2,7 +2,7 @@
 
 **Instructor:** Amir Jahanshahi  
 **University:** Amir Kabir University of Technology  
-**Date:** spring 2019 
+**Date:** Spring 2019 
 
 This repository contains a collection of assignments from the **Advanced Programming** course. These assignments cover advanced topics such as algorithms, data structures, object-oriented design, functional programming, and more, using C++ and Python.
 
@@ -44,53 +44,62 @@ This repository contains a collection of assignments from the **Advanced Program
 ---
 
 ### Assignment 3
-- **Focus:** Neural Networks and Model Evaluation  
+- **Focus:** Neural Networks and Result Management  
 - **Description:**  
-  This assignment involves building and training a neural network. You will implement the neural network class, train the model on datasets, and evaluate the performance of the network. Tasks include comparing multiple networks and finding the optimal one for classification.
+  This assignment involves building a neural network class and managing results. Key tasks include:
+  - Training multiple networks with varying hidden layers and comparing their performance.
+  - Using CSV files to load datasets and evaluate the trained models.
+  - Displaying comparisons between predicted and actual values.
 
 
 ---
 
 ### Assignment 4
-- **Focus:** Custom Data Structures (Doubly Circular Linked Lists)  
+- **Focus:** Doubly Circular Linked Lists and Custom Data Structures  
 - **Description:**  
-  The focus here is on implementing a priority doubly circular linked list for managing student objects. The list allows operations such as searching, sorting, and maintaining student scores for homework, exams, and projects.
+  This assignment focuses on implementing a **Priority Doubly Circular Linked List** to manage student data. Tasks include:
+  - Creating a list that stores students' homework, midterm, and project grades.
+  - Implementing search, display, and dynamic modification of the list.
+  - Prioritizing students based on calculated values.
 
 
 ---
 
 ### Assignment 5
-- **Focus:** Midterm Retake and Enhancement  
+- **Focus:** Midterm Retake and Improvement  
 - **Description:**  
-  This assignment allows students to retake the midterm exam with modifications. It is aimed at enhancing students' understanding of previously covered material and improving their exam scores.
+  This assignment allows students to retake the midterm exam with slight modifications. Students who wish to improve their grades must complete the exam and submit their work by the specified deadline.
 
 
 ---
 
 ### Assignment 6
-- **Focus:** Object-Oriented Design for Storehouse Management  
+- **Focus:** Storehouse Management System with Object-Oriented Design  
 - **Description:**  
-  This assignment focuses on designing a storehouse management system using object-oriented programming. You will create classes for different goods (e.g., food, appliances) and manage customer assets, along with implementing features such as iterators, smart pointers, and function pointers.
-
+  This assignment involves designing a storehouse management system using object-oriented programming. Key tasks include:
+  - Creating a hierarchy of goods (BasicGoods, Food, Material, Appliance).
+  - Managing customer assets in the storehouse.
+  - Implementing advanced object-oriented features like constructors, destructors, and preventing object copying.
+  
 
 ---
 
 ### Assignment 7
-- **Focus:** Face Recognition with Principal Component Analysis (PCA)  
+- **Focus:** Face Recognition using Principal Component Analysis (PCA)  
 - **Description:**  
-  This assignment involves building a face recognition system using the eigenfaces method. Tasks include:
-  - Preprocessing face images using the `loadImage` function.
-  - Applying PCA for dimensionality reduction and generating eigenfaces.
-  - Implementing k-Nearest Neighbors (k-NN) for classifying new faces based on Euclidean distances.
-
+  This assignment involves building a face recognition system using the eigenfaces method, which applies Principal Component Analysis (PCA) to a dataset of faces. The key tasks include:
+  - Implementing the `loadImage` function to load and preprocess face images.
+  - Using PCA to reduce dimensionality and extract the most relevant eigenfaces.
+  - Implementing a k-Nearest Neighbors (k-NN) algorithm to classify new faces based on the nearest eigenfaces.
 
 ---
 
 ### Assignment 8
 - **Focus:** Functional Programming and Python Decorators  
 - **Description:**  
-  This assignment introduces functional programming concepts in Python. You will implement custom decorators such as `timeit`, `noexcept`, and `static_vars`, and complete additional exercises to deepen your understanding of functional programming.
-
+  This assignment introduces advanced Python features such as functional programming and decorators. The tasks include:
+  - Writing one-liner functions without loops or list comprehensions using `map`, `filter`, and `reduce`.
+  - Implementing Python decorators like `timeit` to measure execution time, `noexcept` to catch and handle exceptions, and `static_vars` to add static variables to functions.
 
 ---
 
